@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ------------------- SECRETS (NEVER UPLOAD) -------------------
+.env
+client_secret.json
+token.pickle
+credentials.json
+
+# ------------------- LOCAL DATABASES -------------------
+*.db
+*.sqlite
+alerts.db
+
+# ------------------- LOCAL DATA FOLDERS -------------------
+Incoming_emails/
+processed_emails/
+*.eml
+
+# ------------------- PYTHON CACHE -------------------
+__pycache__/
+*.pyc
+*.pyo
+
+# ------------------- IDE / OS FILES -------------------
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
